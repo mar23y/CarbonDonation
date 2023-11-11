@@ -19,7 +19,7 @@ pragma solidity >=0.7.0 <=0.9.0;
 
   mapping(address=>uint)  addDonation;
 
-  //STORE THE DARAT IN TH ARRAY                     
+  //STORE THE DATA IN TH ARRAY                     
   string  [4]array = [ "Manufacturing" , "manufacturing" ,"agriculture" ,"Agriculture" ];
 
   //ENTER THE NAME OF YOUR FIELD
@@ -30,13 +30,13 @@ pragma solidity >=0.7.0 <=0.9.0;
   if(keccak256(abi.encodePacked(_field))==keccak256(abi.encodePacked(array[i])))
   
       
-  revert("the rate of the the carbon dioxide produced by your company is 10 million ton tons per year");
+  revert("the rate of the carbon dioxide produced by your company is 10 million tons per year");
 
   for(uint u=2;u<4;u++){
 
   if(keccak256(abi.encodePacked(_field))==keccak256(abi.encodePacked(array[u]))){
 
-  revert("the rate of the the carbon dioxide produced by your company is 100 ton tons per year");
+  revert("the rate of the carbon dioxide produced by your company is 100 tons per year");
     
     }
   }
