@@ -54,23 +54,6 @@ pragma solidity >=0.7.0 <=0.9.0;
 
   }
 
-  //ADD DONATION TO THE SMART CONTRACT
-  function donat() public payable {
-
-  donation = msg.value;
-
-  _address = msg.sender;
-
-  addDonation[_address] += donation;
-
-  }
-  // TRANSFER THE DONATION TO THE SOMEOANE THAT NEEDED IT
-  function senddonation() public payable{
-
-  _addressdonation.transfer(donation);
-
-  }
-
   }
 
 
